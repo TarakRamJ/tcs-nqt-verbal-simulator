@@ -1,0 +1,31 @@
+.mock-step-indicator {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--tcs-light-blue);
+  padding: 12px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.step-node {
+  opacity: 0.5;
+}
+
+.step-node.active {
+  opacity: 1;
+  color: var(--tcs-blue);
+}
+
+.report-header {
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.score-badge-large {
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--tcs-orange);
+  margin: 10px 0;
+}

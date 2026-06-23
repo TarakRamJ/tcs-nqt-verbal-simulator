@@ -1,0 +1,2 @@
+/* Placeholder mapping to prevent React compilation errors if build tools map to index.css */
+@import './styles/global.css';

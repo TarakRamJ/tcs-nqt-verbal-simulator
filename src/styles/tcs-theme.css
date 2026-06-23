@@ -1,0 +1,117 @@
+.tcs-header {
+  background-color: #002f6c;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 3px solid var(--tcs-orange);
+}
+
+.tcs-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.tcs-logo-sub {
+  font-size: 11px;
+  color: #bfdbfe;
+  letter-spacing: 1px;
+}
+
+.tcs-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.tcs-btn-toggle {
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  padding: 6px 12px;
+  font-size: 12px;
+}
+
+.tcs-btn-toggle:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+/* Sidebar Styling */
+.tcs-sidebar {
+  width: 260px;
+  background-color: var(--bg-card);
+  border-right: 1px solid var(--border-color);
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--text-main);
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.nav-item:hover, .nav-item.active {
+  background-color: var(--tcs-light-blue);
+  color: var(--tcs-blue);
+}
+
+.nav-item.active {
+  border-left: 4px solid var(--tcs-blue);
+}
+
+/* Base Exam layout patterns */
+.exam-layout {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 20px;
+  height: 100%;
+}
+
+.question-panel {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-header {
+  background-color: var(--tcs-light-blue);
+  padding: 12px 20px;
+  font-weight: 600;
+  color: #002f6c;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.panel-body {
+  padding: 20px;
+  flex: 1;
+}
+
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 15px;
+}

@@ -1,0 +1,43 @@
+.passage-display-box {
+  background-color: #fffde7;
+  color: #333;
+  padding: 20px;
+  border-radius: 4px;
+  border: 1px solid #fff59d;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+[data-theme='dark'] .passage-display-box {
+  background-color: #2c2b1a;
+  color: #f3f4f6;
+  border-color: #4a4515;
+}
+
+.countdown-overlay {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.timer-circle {
+  font-size: 48px;
+  font-weight: bold;
+  color: var(--tcs-orange);
+  margin-bottom: 10px;
+}
+
+.missing-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.missing-tag {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
