@@ -1,162 +1,588 @@
-[
-  {
-    "id": 1,
-    "scenario": "As a recent buyer of their car, write an E-mail to the Manager of XYZ Automotive Company, Mr. Kishore, regarding the poor quality of service facilities available in the city. Sign the E-mail as Anil.",
-    "receiver": "Mr. Kishore",
-    "designation": "Manager of XYZ Automotive Company",
-    "signature": "Anil",
-    "keywords": ["very few", "service centres", "complaints", "pending problems", "maintenance", "cost", "time", "delivery", "increase", "customer satisfaction"]
-  },
-  {
-    "id": 2,
-    "scenario": "Write an email to the Operations Head, Ms. Shreya, complaining about the recurrent delays in the delivery of critical items to your office. Sign off as Rajesh.",
-    "receiver": "Ms. Shreya",
-    "designation": "Operations Head",
-    "signature": "Rajesh",
-    "keywords": ["frequent delays", "logistics", "supply chain", "urgency", "impact", "clients", "resolution", "efficiency", "timeline", "improve"]
-  },
-  {
-    "id": 3,
-    "scenario": "Write an email to the Customer Support Lead of GadgetVerse, Mr. Rohit, reporting a defective laptop delivered to you and asking for a replacement. Sign as Neha.",
-    "receiver": "Mr. Rohit",
-    "designation": "Customer Support Lead",
-    "signature": "Neha",
-    "keywords": ["defective laptop", "screen flickering", "damaged box", "invoice", "warranty", "replacement", "unusable", "reputable company", "refund", "prompt action"]
-  },
-  {
-    "id": 4,
-    "scenario": "Write an email to your ISP Hub Manager, Mr. Vinay, regarding an internet outage in your locality that has disrupted remote work. Sign as Sameer.",
-    "receiver": "Mr. Vinay",
-    "designation": "ISP Hub Manager",
-    "signature": "Sameer",
-    "keywords": ["broadband", "disruption", "work from home", "downtime", "frequency", "technical team", "loss of productivity", "resolution", "refund", "stable connection"]
-  },
-  {
-    "id": 5,
-    "scenario": "Write an email to the Hostel Warden, Mr. Prasad, expressing deep concern over the sub-standard food and sanitation issues in the girls' block. Sign as Priya.",
-    "receiver": "Mr. Prasad",
-    "designation": "Hostel Warden",
-    "signature": "Priya",
-    "keywords": ["unhygienic", "mess food", "water facility", "cleanliness", "health hazards", "complaints", "action", "inspection", "quality", "students"]
-  },
-  {
-    "id": 6,
-    "scenario": "Write an email to the Branch Manager of National Trust Bank, Mr. Deshmukh, regarding unauthorized credit card charges. Sign as Vikram.",
-    "receiver": "Mr. Deshmukh",
-    "designation": "Branch Manager",
-    "signature": "Vikram",
-    "keywords": ["unauthorized transaction", "credit card", "dispute", "fraudulent", "block card", "statement", "investigate", "refund", "security", "immediate attention"]
-  },
-  {
-    "id": 7,
-    "scenario": "Write an email to the Principal of ABC Institute, Dr. Roy, regarding outdated computer laboratories and lack of resources. Sign as Kiran.",
-    "receiver": "Dr. Roy",
-    "designation": "Principal",
-    "signature": "Kiran",
-    "keywords": ["obsolete systems", "slow internet", "software license", "curriculum", "practical labs", "upgrade", "funding", "students", "competitive exams", "infrastructure"]
-  },
-  {
-    "id": 8,
-    "scenario": "Write an email to the Scholarship Committee Chairperson, Dr. Mehta, asking for details on the delay of your academic scholarship disbursal. Sign as Amit.",
-    "receiver": "Dr. Mehta",
-    "designation": "Scholarship Committee Chairperson",
-    "signature": "Amit",
-    "keywords": ["merit scholarship", "disbursal", "delay", "financial strain", "semester fees", "documents", "verification", "status", "request", "assistance"]
-  },
-  {
-    "id": 9,
-    "scenario": "Write an email to the Store Owner, Mr. Bansal, demanding a replacement or a complete refund for a broken refrigerator delivered to your flat. Sign as Sunita.",
-    "receiver": "Mr. Bansal",
-    "designation": "Store Owner",
-    "signature": "Sunita",
-    "keywords": ["damaged product", "cooling defect", "delivery team", "warranty card", "replacement", "refund", "unacceptable", "customer care", "compensation", "rectify"]
-  },
-  {
-    "id": 10,
-    "scenario": "Write an email to the Transport In-Charge, Mr. Khan, regarding the irregular timings and unsafe driving of college bus route 14. Sign as Rahul.",
-    "receiver": "Mr. Khan",
-    "designation": "Transport In-Charge",
-    "signature": "Rahul",
-    "keywords": ["bus route", "irregular schedule", "speeding", "safety concerns", "commute", "late arrival", "warnings", "driver behavior", "action", "students safety"]
-  },
-  {
-    "id": 11,
-    "scenario": "Write an email to the HR Manager of Apex Solutions, Ms. Kapoor, requesting a one-week medical extension for your joining date due to a fracture. Sign as Nitin.",
-    "receiver": "Ms. Kapoor",
-    "designation": "HR Manager",
-    "signature": "Nitin",
-    "keywords": ["offer letter", "joining date", "medical emergency", "accidental injury", "medical certificate", "extension", "recovery", "revised date", "enthusiastic", "cooperation"]
-  },
-  {
-    "id": 12,
-    "scenario": "Write an email to the Project Director, Dr. Anand, requesting additional cloud computing credits for your final-year project training model. Sign as Sneha.",
-    "receiver": "Dr. Anand",
-    "designation": "Project Director",
-    "signature": "Sneha",
-    "keywords": ["cloud infrastructure", "credits", "machine learning", "dataset", "computation", "exhausted", "academic project", "allocation", "deadline", "approval"]
-  },
-  {
-    "id": 13,
-    "scenario": "Write an email to the General Manager of StayIn Comfort Hotels, Mr. Kapoor, regarding missing amenities and noisy renovations during your stay. Sign as Akash.",
-    "receiver": "Mr. Kapoor",
-    "designation": "General Manager",
-    "signature": "Akash",
-    "keywords": ["deluxe room", "disturbance", "renovation noise", "amenities", "poor service", "refund", "disappointed", "hospitality", "feedback", "compensation"]
-  },
-  {
-    "id": 14,
-    "scenario": "Write an email to the Municipal Commissioner, Mr. Chatterjee, highlighting the critical issue of open potholes on the main market road. Sign as Vivek.",
-    "receiver": "Mr. Chatterjee",
-    "designation": "Municipal Commissioner",
-    "signature": "Vivek",
-    "keywords": ["potholes", "monsoon damage", "accidents", "commuters", "traffic congestion", "repairs", "asphalt", "hazardous", "immediate action", "public safety"]
-  },
-  {
-    "id": 15,
-    "scenario": "Write an email to the Library Head, Mrs. Swamy, requesting the purchase of digital subscriptions and latest technical textbooks for engineering students. Sign as Megha.",
-    "receiver": "Mrs. Swamy",
-    "designation": "Library Head",
-    "signature": "Megha",
-    "keywords": ["e-journals", "digital library", "reference books", "latest edition", "access", "academic research", "procurement", "inventory", "budget", "students interest"]
-  },
-  {
-    "id": 16,
-    "scenario": "Write an email to the Placement Officer, Mr. Joseph, requesting a special re-schedule for an interview slot due to a university exam clash. Sign as Rohan.",
-    "receiver": "Mr. Joseph",
-    "designation": "Placement Officer",
-    "signature": "Rohan",
-    "keywords": ["campus placement", "interview slot", "exam clash", "academic calendar", "reschedule", "opportunity", "recruitment drive", "timing", "request", "grateful"]
-  },
-  {
-    "id": 17,
-    "scenario": "Write an email to the Gym Manager, Mr. Gary, complaining about broken exercise equipment and an unhygienic locker area. Sign as Divya.",
-    "receiver": "Mr. Gary",
-    "designation": "Gym Manager",
-    "signature": "Divya",
-    "keywords": ["treadmill", "broken cables", "unhygienic", "locker room", "membership fee", "maintenance", "injury risk", "cleanliness", "renovation", "prompt service"]
-  },
-  {
-    "id": 18,
-    "scenario": "Write an email to the Event Coordinator, Ms. Alisha, seeking a full refund for a music festival ticket canceled last minute. Sign as Tarun.",
-    "receiver": "Ms. Alisha",
-    "designation": "Event Coordinator",
-    "signature": "Tarun",
-    "keywords": ["music festival", "cancellation", "ticket booking", "refund policy", "transaction ID", "disappointed", "reimbursement", "automated email", "customer support", "settlement"]
-  },
-  {
-    "id": 19,
-    "scenario": "Write an email to the Tech Support Head of CloudNet, Mr. Rao, demanding a configuration fix for recurring server timeouts on your production site. Sign as Preeti.",
-    "receiver": "Mr. Rao",
-    "designation": "Tech Support Head",
-    "signature": "Preeti",
-    "keywords": ["production server", "timeouts", "downtime", "configuration error", "database", "latency", "traffic loss", "patch update", "critical issue", "resolution"]
-  },
-  {
-    "id": 20,
-    "scenario": "Write an email to the Society President, Mr. Joshi, complaining about illegal vehicle parking blocking access to emergency exits. Sign as Manish.",
-    "receiver": "Mr. Joshi",
-    "designation": "Society President",
-    "signature": "Manish",
-    "keywords": ["unauthorized parking", "blocking entry", "emergency exit", "safety rules", "fire hazard", "security guards", "penalty", "towing", "residents welfare", "action"]
-  }
-]
+{
+  "email_practice_questions": [
+    {
+      "id": 1,
+      "scenario": "As a recent buyer of their car, write an E-mail to the Manager of XYZ Automotive Company, Mr. Kishore, regarding the poor quality of service facilities available in the city. Sign the E-mail as Anil.",
+      "receiver": "Mr. Kishore",
+      "designation": "Manager of XYZ Automotive Company",
+      "signature": "Anil",
+      "category": "Complaint",
+      "keywords": [
+        "very few",
+        "service centres",
+        "complaints",
+        "pending problems",
+        "maintenance",
+        "cost",
+        "time",
+        "delivery",
+        "increase",
+        "customer satisfaction"
+      ]
+    },
+    {
+      "id": 2,
+      "scenario": "Write an email to the Operations Head, Ms. Shreya, complaining about the recurrent delays in the delivery of critical items to your office. Sign off as Rajesh.",
+      "receiver": "Ms. Shreya",
+      "designation": "Operations Head",
+      "signature": "Rajesh",
+      "category": "Complaint",
+      "keywords": [
+        "frequent delays",
+        "logistics",
+        "supply chain",
+        "urgency",
+        "impact",
+        "clients",
+        "resolution",
+        "efficiency",
+        "timeline",
+        "improve"
+      ]
+    },
+    {
+      "id": 3,
+      "scenario": "Write an email to the Customer Support Lead of GadgetVerse, Mr. Rohit, reporting a defective laptop delivered to you and asking for a replacement. Sign as Neha.",
+      "receiver": "Mr. Rohit",
+      "designation": "Customer Support Lead",
+      "signature": "Neha",
+      "category": "Complaint",
+      "keywords": [
+        "defective laptop",
+        "screen flickering",
+        "damaged box",
+        "invoice",
+        "warranty",
+        "replacement",
+        "unusable",
+        "reputable company",
+        "refund",
+        "prompt action"
+      ]
+    },
+    {
+      "id": 4,
+      "scenario": "Write an email to your ISP Hub Manager, Mr. Vinay, regarding an internet outage in your locality that has disrupted remote work. Sign as Sameer.",
+      "receiver": "Mr. Vinay",
+      "designation": "ISP Hub Manager",
+      "signature": "Sameer",
+      "category": "Complaint",
+      "keywords": [
+        "broadband",
+        "disruption",
+        "work from home",
+        "downtime",
+        "frequency",
+        "technical team",
+        "loss of productivity",
+        "resolution",
+        "refund",
+        "stable connection"
+      ]
+    },
+    {
+      "id": 5,
+      "scenario": "Write an email to the Hostel Warden, Mr. Prasad, expressing deep concern over the sub-standard food and sanitation issues in the girls' block. Sign as Priya.",
+      "receiver": "Mr. Prasad",
+      "designation": "Hostel Warden",
+      "signature": "Priya",
+      "category": "Complaint",
+      "keywords": [
+        "unhygienic",
+        "mess food",
+        "water facility",
+        "cleanliness",
+        "health hazards",
+        "complaints",
+        "action",
+        "inspection",
+        "quality",
+        "students"
+      ]
+    },
+    {
+      "id": 6,
+      "scenario": "Write an email to the Branch Manager of National Trust Bank, Mr. Deshmukh, regarding unauthorized credit card charges. Sign as Vikram.",
+      "receiver": "Mr. Deshmukh",
+      "designation": "Branch Manager",
+      "signature": "Vikram",
+      "category": "Complaint",
+      "keywords": [
+        "unauthorized transaction",
+        "credit card",
+        "dispute",
+        "fraudulent",
+        "block card",
+        "statement",
+        "investigate",
+        "refund",
+        "security",
+        "immediate attention"
+      ]
+    },
+    {
+      "id": 7,
+      "scenario": "Write an email to the Principal of ABC Institute, Dr. Roy, regarding outdated computer laboratories and lack of resources. Sign as Kiran.",
+      "receiver": "Dr. Roy",
+      "designation": "Principal",
+      "signature": "Kiran",
+      "category": "Request",
+      "keywords": [
+        "obsolete systems",
+        "slow internet",
+        "software license",
+        "curriculum",
+        "practical labs",
+        "upgrade",
+        "funding",
+        "students",
+        "competitive exams",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": 8,
+      "scenario": "Write an email to the Scholarship Committee Chairperson, Dr. Mehta, asking for details on the delay of your academic scholarship disbursal. Sign as Amit.",
+      "receiver": "Dr. Mehta",
+      "designation": "Scholarship Committee Chairperson",
+      "signature": "Amit",
+      "category": "Request",
+      "keywords": [
+        "merit scholarship",
+        "disbursal",
+        "delay",
+        "financial strain",
+        "semester fees",
+        "documents",
+        "verification",
+        "status",
+        "request",
+        "assistance"
+      ]
+    },
+    {
+      "id": 9,
+      "scenario": "Write an email to the Store Owner, Mr. Bansal, demanding a replacement or a complete refund for a broken refrigerator delivered to your flat. Sign as Sunita.",
+      "receiver": "Mr. Bansal",
+      "designation": "Store Owner",
+      "signature": "Sunita",
+      "category": "Complaint",
+      "keywords": [
+        "damaged product",
+        "cooling defect",
+        "delivery team",
+        "warranty card",
+        "replacement",
+        "refund",
+        "unacceptable",
+        "customer care",
+        "compensation",
+        "rectify"
+      ]
+    },
+    {
+      "id": 10,
+      "scenario": "Write an email to the Transport In-Charge, Mr. Khan, regarding the irregular timings and unsafe driving of college bus route 14. Sign as Rahul.",
+      "receiver": "Mr. Khan",
+      "designation": "Transport In-Charge",
+      "signature": "Rahul",
+      "category": "Complaint",
+      "keywords": [
+        "bus route",
+        "irregular schedule",
+        "speeding",
+        "safety concerns",
+        "commute",
+        "late arrival",
+        "warnings",
+        "driver behavior",
+        "action",
+        "students safety"
+      ]
+    },
+    {
+      "id": 11,
+      "scenario": "Write an email to the HR Manager of Apex Solutions, Ms. Kapoor, requesting a one-week medical extension for your joining date due to a fracture. Sign as Nitin.",
+      "receiver": "Ms. Kapoor",
+      "designation": "HR Manager",
+      "signature": "Nitin",
+      "category": "Request",
+      "keywords": [
+        "offer letter",
+        "joining date",
+        "medical emergency",
+        "accidental injury",
+        "medical certificate",
+        "extension",
+        "recovery",
+        "revised date",
+        "enthusiastic",
+        "cooperation"
+      ]
+    },
+    {
+      "id": 12,
+      "scenario": "Write an email to the Project Director, Dr. Anand, requesting additional cloud computing credits for your final-year project training model. Sign as Sneha.",
+      "receiver": "Dr. Anand",
+      "designation": "Project Director",
+      "signature": "Sneha",
+      "category": "Request",
+      "keywords": [
+        "cloud infrastructure",
+        "credits",
+        "machine learning",
+        "dataset",
+        "computation",
+        "exhausted",
+        "academic project",
+        "allocation",
+        "deadline",
+        "approval"
+      ]
+    },
+    {
+      "id": 13,
+      "scenario": "Write an email to the General Manager of StayIn Comfort Hotels, Mr. Kapoor, regarding missing amenities and noisy renovations during your stay. Sign as Akash.",
+      "receiver": "Mr. Kapoor",
+      "designation": "General Manager",
+      "signature": "Akash",
+      "category": "Complaint",
+      "keywords": [
+        "deluxe room",
+        "disturbance",
+        "renovation noise",
+        "amenities",
+        "poor service",
+        "refund",
+        "disappointed",
+        "hospitality",
+        "feedback",
+        "compensation"
+      ]
+    },
+    {
+      "id": 14,
+      "scenario": "Write an email to the Municipal Commissioner, Mr. Chatterjee, highlighting the critical issue of open potholes on the main market road. Sign as Vivek.",
+      "receiver": "Mr. Chatterjee",
+      "designation": "Municipal Commissioner",
+      "signature": "Vivek",
+      "category": "Complaint",
+      "keywords": [
+        "potholes",
+        "monsoon damage",
+        "accidents",
+        "commuters",
+        "traffic congestion",
+        "repairs",
+        "asphalt",
+        "hazardous",
+        "immediate action",
+        "public safety"
+      ]
+    },
+    {
+      "id": 15,
+      "scenario": "Write an email to the Library Head, Mrs. Swamy, requesting the purchase of digital subscriptions and latest technical textbooks for engineering students. Sign as Megha.",
+      "receiver": "Mrs. Swamy",
+      "designation": "Library Head",
+      "signature": "Megha",
+      "category": "Request",
+      "keywords": [
+        "e-journals",
+        "digital library",
+        "reference books",
+        "latest edition",
+        "access",
+        "academic research",
+        "procurement",
+        "inventory",
+        "budget",
+        "students interest"
+      ]
+    },
+
+    {
+      "id": 16,
+      "scenario": "Write an email to the Placement Officer, Mr. Joseph, requesting a special re-schedule for an interview slot due to a university exam clash. Sign as Rohan.",
+      "receiver": "Mr. Joseph",
+      "designation": "Placement Officer",
+      "signature": "Rohan",
+      "category": "Request",
+      "keywords": [
+        "campus placement",
+        "interview slot",
+        "exam clash",
+        "academic calendar",
+        "reschedule",
+        "opportunity",
+        "recruitment drive",
+        "timing",
+        "request",
+        "grateful"
+      ]
+    },
+
+    {
+      "id": 17,
+      "scenario": "Write an email to the Gym Manager, Mr. Gary, complaining about broken exercise equipment and an unhygienic locker area. Sign as Divya.",
+      "receiver": "Mr. Gary",
+      "designation": "Gym Manager",
+      "signature": "Divya",
+      "category": "Complaint",
+      "keywords": [
+        "treadmill",
+        "broken cables",
+        "unhygienic",
+        "locker room",
+        "membership fee",
+        "maintenance",
+        "injury risk",
+        "cleanliness",
+        "renovation",
+        "prompt service"
+      ]
+    },
+
+    {
+      "id": 18,
+      "scenario": "Write an email to the Event Coordinator, Ms. Alisha, seeking a full refund for a music festival ticket canceled last minute. Sign as Tarun.",
+      "receiver": "Ms. Alisha",
+      "designation": "Event Coordinator",
+      "signature": "Tarun",
+      "category": "Refund",
+      "keywords": [
+        "music festival",
+        "cancellation",
+        "ticket booking",
+        "refund policy",
+        "transaction ID",
+        "disappointed",
+        "reimbursement",
+        "automated email",
+        "customer support",
+        "settlement"
+      ]
+    },
+
+    {
+      "id": 19,
+      "scenario": "Write an email to the Tech Support Head of CloudNet, Mr. Rao, demanding a configuration fix for recurring server timeouts on your production site. Sign as Preeti.",
+      "receiver": "Mr. Rao",
+      "designation": "Tech Support Head",
+      "signature": "Preeti",
+      "category": "Complaint",
+      "keywords": [
+        "production server",
+        "timeouts",
+        "downtime",
+        "configuration error",
+        "database",
+        "latency",
+        "traffic loss",
+        "patch update",
+        "critical issue",
+        "resolution"
+      ]
+    },
+
+    {
+      "id": 20,
+      "scenario": "Write an email to the Society President, Mr. Joshi, complaining about illegal vehicle parking blocking access to emergency exits. Sign as Manish.",
+      "receiver": "Mr. Joshi",
+      "designation": "Society President",
+      "signature": "Manish",
+      "category": "Complaint",
+      "keywords": [
+        "unauthorized parking",
+        "blocking entry",
+        "emergency exit",
+        "safety rules",
+        "fire hazard",
+        "security guards",
+        "penalty",
+        "towing",
+        "residents welfare",
+        "action"
+      ]
+    },
+
+    {
+      "id": 21,
+      "scenario": "You are part of the IT Support team. Write an email to employees informing them about a mandatory operating system upgrade happening this weekend.",
+      "receiver": "All Employees",
+      "designation": "Employees",
+      "signature": "IT Support Team",
+      "category": "Announcement",
+      "keywords": [
+        "IT support team",
+        "corporate laptop upgrade",
+        "backup critical files",
+        "mandatory compliance",
+        "downtime on Saturday",
+        "password reset link",
+        "seamless transition"
+      ]
+    },
+
+    {
+      "id": 22,
+      "scenario": "You are a Project Manager. Write an email inviting your team to a celebratory dinner after successfully delivering a major software release.",
+      "receiver": "Project Team",
+      "designation": "Team Members",
+      "signature": "Project Manager",
+      "category": "Invitation",
+      "keywords": [
+        "Project Manager",
+        "exceptional dedication",
+        "client sign-off",
+        "major milestone achieved",
+        "team dinner celebration",
+        "Friday evening",
+        "RSVP by tomorrow"
+      ]
+    },
+
+    {
+      "id": 23,
+      "scenario": "You are part of the Human Resources team. Write an email to all employees announcing the annual corporate health wellness camp.",
+      "receiver": "All Employees",
+      "designation": "Employees",
+      "signature": "HR Team",
+      "category": "Announcement",
+      "keywords": [
+        "HR welfare initiative",
+        "free medical check-up",
+        "executive health package",
+        "slot booking mandatory",
+        "cafeteria conference hall",
+        "prioritize your wellness"
+      ]
+    },
+
+    {
+      "id": 24,
+      "scenario": "You are the Chief Operations Officer. Write an email explaining a shift from a fully remote setup to a three-day hybrid work model starting next month.",
+      "receiver": "All Employees",
+      "designation": "Employees",
+      "signature": "Chief Operations Officer",
+      "category": "Policy",
+      "keywords": [
+        "Chief Operations Officer",
+        "hybrid work model",
+        "roster allocation",
+        "three days office",
+        "collaboration and innovation",
+        "transport facilities",
+        "queries to HR"
+      ]
+    },
+
+    {
+      "id": 25,
+      "scenario": "You are the Information Security Officer. Write an email directing employees to complete a mandatory cyber security training module.",
+      "receiver": "All Employees",
+      "designation": "Employees",
+      "signature": "Information Security Officer",
+      "category": "Training",
+      "keywords": [
+        "Information Security team",
+        "phishing simulation",
+        "mandatory module",
+        "LMS portal",
+        "deadline end of week",
+        "compliance certification",
+        "data safety protocol"
+      ]
+    },
+
+    {
+      "id": 26,
+      "scenario": "You are part of the Facilities Management team. Write an email informing a business unit that they are relocating to a newly constructed office block.",
+      "receiver": "Business Unit Employees",
+      "designation": "Employees",
+      "signature": "Facilities Management Team",
+      "category": "Announcement",
+      "keywords": [
+        "Facilities Management",
+        "corporate block shift",
+        "packing crates allocation",
+        "weekend relocation",
+        "new seating arrangement",
+        "access cards update",
+        "Monday morning login"
+      ]
+    },
+
+    {
+      "id": 27,
+      "scenario": "You are a Delivery Manager. Write an email asking team members to complete their self-appraisal forms before the annual review.",
+      "receiver": "Team Members",
+      "designation": "Employees",
+      "signature": "Delivery Manager",
+      "category": "Reminder",
+      "keywords": [
+        "Delivery Manager",
+        "performance appraisal cycle",
+        "self-evaluation form",
+        "key achievements",
+        "career growth discussion",
+        "deadline next Tuesday",
+        "portal link"
+      ]
+    },
+
+    {
+      "id": 28,
+      "scenario": "You are part of the Sustainability Committee. Write an email informing employees about the implementation of the Green Campus Policy.",
+      "receiver": "All Employees",
+      "designation": "Employees",
+      "signature": "Sustainability Committee",
+      "category": "Announcement",
+      "keywords": [
+        "Sustainability Committee",
+        "green campus initiative",
+        "single-use plastic ban",
+        "digital documentation",
+        "reusable bottles",
+        "eco-friendly corporate culture",
+        "active participation"
+      ]
+    },
+
+    {
+      "id": 29,
+      "scenario": "You are the Executive Assistant to the CEO. Write an email informing staff that the quarterly town hall has been postponed.",
+      "receiver": "All Staff",
+      "designation": "Employees",
+      "signature": "Executive Assistant",
+      "category": "Notice",
+      "keywords": [
+        "Executive Assistant",
+        "quarterly town hall meeting",
+        "unavoidable postponement",
+        "revised schedule",
+        "Q&A session",
+        "live stream link",
+        "apology for inconvenience"
+      ]
+    },
+
+    {
+      "id": 30,
+      "scenario": "You are part of the Talent Acquisition team. Write an email announcing an internal employee referral drive.",
+      "receiver": "All Employees",
+      "designation": "Employees",
+      "signature": "Talent Acquisition Team",
+      "category": "Announcement",
+      "keywords": [
+        "Talent Acquisition",
+        "urgent hiring drive",
+        "cloud architecture skills",
+        "employee referral bonus",
+        "resume submission",
+        "cash rewards policy",
+        "join our growth"
+      ]
+    }
+  ]
+}
