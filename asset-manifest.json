@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/tcs-nqt-verbal-simulator/static/css/main.49fd686c.css",
-    "main.js": "/tcs-nqt-verbal-simulator/static/js/main.d552e3ca.js",
+    "main.css": "/tcs-nqt-verbal-simulator/static/css/main.b303539e.css",
+    "main.js": "/tcs-nqt-verbal-simulator/static/js/main.e4f9a890.js",
     "index.html": "/tcs-nqt-verbal-simulator/index.html",
-    "main.49fd686c.css.map": "/tcs-nqt-verbal-simulator/static/css/main.49fd686c.css.map",
-    "main.d552e3ca.js.map": "/tcs-nqt-verbal-simulator/static/js/main.d552e3ca.js.map"
+    "main.b303539e.css.map": "/tcs-nqt-verbal-simulator/static/css/main.b303539e.css.map",
+    "main.e4f9a890.js.map": "/tcs-nqt-verbal-simulator/static/js/main.e4f9a890.js.map"
   },
   "entrypoints": [
-    "static/css/main.49fd686c.css",
-    "static/js/main.d552e3ca.js"
+    "static/css/main.b303539e.css",
+    "static/js/main.e4f9a890.js"
   ]
 }
